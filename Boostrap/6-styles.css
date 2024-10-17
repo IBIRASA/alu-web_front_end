@@ -4,9 +4,6 @@
     --text-gray: #8c8c8c;
     --text-white: white;
   }
-  
-  /* Navigation Bottom Border */
-  
   .border-bottom {
     border-color: var(--light-red) !important;
   }
@@ -15,8 +12,6 @@
     background-color: var(--light-red);
     border-color: var(--light-red);
   }
-  
-  /* Buttons Overwrite  */
   
   .btn-primary:hover,
   .btn-primary:focus,
@@ -46,22 +41,16 @@
     box-shadow: var(--dark-red) !important;
   }
   
-  /* Links Overwrite */
-  
   a,
   a:hover,
   a:focus {
     color: var(--light-red) !important;
   }
   
-  /* Text Overwrite */
-  
   .text-muted {
     color: var(--text-gray) !important;
   }
-  
-  /* Cards Overwrite */
-  
+
   .card,
   .card-header,
   .card-footer {
